@@ -58,6 +58,7 @@ p.more {
   body {
     width: 100vw;
   }
+
   section {
     max-width: 350px;
   }
@@ -121,10 +122,12 @@ header h1 {
   header {
     text-align: center;
   }
+
   .btns-download button {
     width: 320px;
   }
 }
+
 /* === End Header Section === */
 /* === Start Keep Section === */
 .keep {
@@ -165,6 +168,7 @@ header h1 {
     position: static;
     gap: 0;
   }
+
   .keep .features img {
     width: 350px;
   }
@@ -195,7 +199,7 @@ header h1 {
 
 .supercharge .flex-center {
   flex-direction: row;
-  margin-top:  100px;
+  margin-top: 100px;
   gap: 40px;
 }
 
@@ -244,13 +248,11 @@ footer {
   gap: 30px;
   background-color: hsla(202, 11%, 66%, 0.144);
   padding: 50px 0 15px;
-  
 }
 
 footer .container {
   flex-direction: row;
   gap: 160px;
-
 }
 
 footer .container .logo {
@@ -297,24 +299,23 @@ footer .social a {
 }
 
 @media (max-width: 767px) {
-  footer {
-    /* flex-direction: column; */
-  }
   footer .container {
     flex-direction: column;
+    gap: 50px;
   }
+
   footer .container .links {
     flex-direction: column;
   }
+
   footer .container .links li {
     margin: 0;
   }
+
   footer .container .links li:nth-child(2) {
     margin: 0;
   }
-  footer .social a:not(:last-of-type) {
-    /* margin-right: 30px;  */
-  }
+
   footer .social a:nth-of-type(2) {
     margin: 0 30px;
   }
