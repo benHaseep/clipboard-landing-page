@@ -173,6 +173,11 @@ header h1 {
     width: 350px;
   }
 }
+@media (max-width: 1200px) {
+  .keep .features {
+    justify-content: center;
+  }
+}
 
 /* === End Keep Section === */
 /* === Start Access Section === */
